@@ -26,19 +26,55 @@ public:
 			cout << block;
 		}
 		cout << endl;
-		;
+		setlocale(LC_ALL, "C");
 		cout << block << block << "                            " << block << block << "                          " << block << block << "                          " << block << block << "                             " << block << block << endl;
-		cout << block << block << "       1 Тиждень            " << block << block << "         2 Тиждень        " << block << block << "        3 Тиждень         " << block << block << "          4 Тиждень          " << block << block << endl;
-		cout << block << block << "                            " << block << block << "                          " << block << block << "                          " << block << block << "                             " << block << block << endl;
+
+		setlocale(LC_ALL, "C");
+		cout << block << block;
+		setlocale(LC_ALL, "Russian");
+		cout << "       1 Тиждень            ";
+		setlocale(LC_ALL, "C");
+		cout << block << block;
+		setlocale(LC_ALL, "Russian");
+		cout << "       2 Тиждень          ";
+		setlocale(LC_ALL, "C");
+		cout << block << block;
+		setlocale(LC_ALL, "Russian");
+		cout << "       3 Тиждень          ";
+		setlocale(LC_ALL, "C");
+		cout << block << block;
+		setlocale(LC_ALL, "Russian");
+		cout << "          4 Тиждень          ";
+		setlocale(LC_ALL, "C");
+		cout << block << block << endl;
+
+		cout << block << block <<"                            " << block << block << "                          " << block << block << "                          " << block << block << "                             " << block << block << endl;
 			for (int i = 0; i < 119; i++)
 			{
 				setlocale(LC_CTYPE, "C");
 				cout << block;
 			}
-			setlocale(LC_ALL, "Russian");
+			setlocale(LC_ALL, "С");
 			cout << "\n";
 			cout << block << block << "                            " << block << block << "                          " << block << block << "                          " << block << block << "                             " << block << block << endl;
-			cout << block << block << "     Пiдвищення на 10%      " << block << block << "     Пiдвищення на 5%     " << block << block << "     Пiдвищення на 7%     " << block << block << "     Пiдвищення на 10%       " << block << block << endl;
+			setlocale(LC_ALL, "C");
+			cout << block << block;
+			setlocale(LC_ALL, "Russian");
+			cout << "     Пiдвищення на 10%      ";
+			setlocale(LC_ALL, "C");
+			cout << block << block;
+			setlocale(LC_ALL, "Russian");
+			cout << "     Пiдвищення на 5%     ";
+			setlocale(LC_ALL, "C");
+			cout << block << block;
+			setlocale(LC_ALL, "Russian");
+			cout << "     Пiдвищення на 7%     ";
+			setlocale(LC_ALL, "C");
+			cout << block << block;
+			setlocale(LC_ALL, "Russian");
+			cout << "     Пiдвищення на 10%       ";
+			setlocale(LC_ALL, "C");
+			cout << block << block << endl;
 
 			cout << block << block << "                            " << block << block << "                          " << block << block << "                          " << block << block << "                             " << block << block << endl;
 			for (int i = 0; i < 119; i++)
